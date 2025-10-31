@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyTorch Models (large files)
+*.pth
+*.pt
+*.ckpt
+
+# Dataset (too large for git)
+datasets/
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Logs and outputs
+logs/
+*.log
+results/
+outputs/
+screenshots/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Audio files
+*.wav
+*.mp3
+sounds/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
